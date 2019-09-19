@@ -7,6 +7,8 @@ A short introduction of this app could easily go here.
 
 bash export PATH=\$PATH:/sandbox/node_modules/ember-cli/bin
 
+bash export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin
+
 echo 'export PATH=\$PATH:/sandbox/node_modules/ember-cli/bin' >> ~/.bash_profile"
 
 ## Prerequisites
