@@ -13,6 +13,11 @@ bash export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin' >> ~/.bash_profile && source ~/.bash_profile
 
+## Add to scripts
+ "scripts": {
+    "bash_profile": "echo 'export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/brunch/bin' >> ~/.bash_profile && . ~/.bash_profile",
+  },
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
