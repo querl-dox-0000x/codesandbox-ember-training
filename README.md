@@ -3,20 +3,18 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
-## Export ember-cli path
+## Export path
 
-bash export PATH=\$PATH:/sandbox/node_modules/ember-cli/bin
+export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/.bin
 
-bash export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin
+## Create bash_profile
 
-## Creat bash_profile
-
-echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin' >> ~/.bash_profile && source ~/.bash_profile
+echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/.bin' >> ~/.bash_profile && source ~/.bash_profile
 
 ## Add to scripts
  "scripts": {
    
-   "bash_profile": "echo 'export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/brunch/bin' >> ~/.bash_profile && . ~/.bash_profile"
+   "bash_profile": "echo 'export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/.bin' >> ~/.bash_profile && . ~/.bash_profile"
     
   },
 
