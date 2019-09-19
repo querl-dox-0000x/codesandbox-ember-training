@@ -11,9 +11,7 @@ bash export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 
 ## Creat bash_profile
 
-echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin' >> ~/.bash_profile
-
-source ~/.bash_profile
+echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sandbox/node_modules/ember-cli/bin' >> ~/.bash_profile && source ~/.bash_profile
 
 ## Prerequisites
 
