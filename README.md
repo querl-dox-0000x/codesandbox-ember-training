@@ -14,9 +14,9 @@ echo 'export PATH=\$PATH:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/game
 ## Add to scripts
  "scripts": {
    
-   "bash_profile": "echo 'export PATH=$PATH:/sandbox/node_modules/.bin' >> ~/.bash_profile && . ~/.bash_profile"
+   "node_path_bin": "echo 'export PATH=$PATH:/sandbox/node_modules/.bin' >> ~/.bash_profile && . ~/.bash_profile"
    
-   "node_path": "echo 'export NODE_PATH=/sandbox/node_modules' >> ~/.bash_profile && . ~/.bash_profile"
+   "node_path_variable": "echo 'export NODE_PATH=/sandbox/node_modules' >> ~/.bash_profile && . ~/.bash_profile"
     },
 
 ## Prerequisites
